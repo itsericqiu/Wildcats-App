@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="xW1-4M-FIo">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zsi-Os-z23">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items/>
+                                <color key="barTintColor" red="0.0" green="0.15686274510000001" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2016 Eric Qiu. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
+                                <rect key="frame" x="20" y="513" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Westmount_Logo_eps_for_print_" translatesAutoresizingMaskIntoConstraints="NO" id="ipb-gX-Jj9">
+                                <rect key="frame" x="20" y="167" width="560" height="338"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="338" id="9Ml-tq-3Xe"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wildcats" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
+                                <rect key="frame" x="20" y="88" width="560" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="fhG-Q1-LcY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12941176469999999" green="0.36078431370000003" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="zsi-Os-z23" secondAttribute="bottom" id="2dP-Ze-1hP"/>
+                            <constraint firstItem="ipb-gX-Jj9" firstAttribute="leading" secondItem="obG-Y5-kRd" secondAttribute="leading" id="4lN-vq-rdc"/>
+                            <constraint firstItem="zsi-Os-z23" firstAttribute="top" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="22" id="84F-ll-0qo"/>
+                            <constraint firstAttribute="trailing" secondItem="zsi-Os-z23" secondAttribute="trailing" id="87d-p6-Py9"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="ipb-gX-Jj9" secondAttribute="leading" id="95h-Qi-6b0"/>
+                            <constraint firstAttribute="trailing" secondItem="zsi-Os-z23" secondAttribute="trailing" id="E7v-3v-38L"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="24" id="Ia9-BT-xUT"/>
+                            <constraint firstItem="ipb-gX-Jj9" firstAttribute="trailing" secondItem="obG-Y5-kRd" secondAttribute="trailing" id="KhN-Qh-IMU"/>
+                            <constraint firstItem="zsi-Os-z23" firstAttribute="top" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="22" id="Qla-0h-0rB"/>
+                            <constraint firstItem="zsi-Os-z23" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="UCT-9v-AdL"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="XXH-6w-Tus"/>
+                            <constraint firstItem="zsi-Os-z23" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="XzH-BU-4NL"/>
+                            <constraint firstItem="ipb-gX-Jj9" firstAttribute="top" secondItem="GJd-Yh-RWb" secondAttribute="bottom" constant="36" id="dyL-id-X3l"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="trailing" secondItem="ipb-gX-Jj9" secondAttribute="trailing" id="jbd-et-zGl"/>
+                            <constraint firstItem="zsi-Os-z23" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="oXU-ja-J2a"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="centerX" secondItem="zsi-Os-z23" secondAttribute="centerX" id="wh9-jm-nkI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="h2R-MC-Lhi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="865" y="375"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0bK-Oi-0gR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xW1-4M-FIo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hBm-0T-mX9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.15686274510000001" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="01J-lp-oVM" kind="relationship" relationship="rootViewController" id="FeW-di-b0F"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EgU-Pt-3yh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Westmount_Logo_eps_for_print_" width="415" height="415"/>
+    </resources>
+</document>

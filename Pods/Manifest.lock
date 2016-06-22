@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (3.4.1)
+  - AlamofireRSSParser (1.0.0):
+    - Alamofire (> 3.0.0)
+  - FeedParser (3.0.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - AlamofireRSSParser (~> 1.0)
+  - FeedParser (~> 3.0)
+  - SwiftyJSON (~> 2.3)
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  AlamofireRSSParser: 34616348df688d21d3514f44472d769a574c0a0d
+  FeedParser: 14cc1a64a9a1b3ef6ed0f99ef14c1639023e01ea
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: bb9bbb9532d12871547cb378f7d1f5619a580396
+
+COCOAPODS: 1.0.1

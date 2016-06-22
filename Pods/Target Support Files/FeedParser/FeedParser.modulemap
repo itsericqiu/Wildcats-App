@@ -1,0 +1,6 @@
+framework module FeedParser {
+  umbrella header "FeedParser-umbrella.h"
+
+  export *
+  module * { export * }
+}
