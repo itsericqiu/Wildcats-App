@@ -1,3 +1,8 @@
+# The Wildcats App
+## A Mobile Information Portal for Westmount Secondary School
+See a video walkthrough of the code for the app [here](https://youtu.be/3LN2LpgE3Xc)
+
+### Notes for HWDSB:
 Open Wildcats.xcworkspace instead of Wildcats.xcodeproj
 
 workspace contains both app project and libraries used
